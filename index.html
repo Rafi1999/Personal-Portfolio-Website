@@ -7,20 +7,306 @@
     <title>Rafi Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/favicon-16x16.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </head>
 <body>
-    <section>
-        <div class="half-width">
+    <header>
+        <nav class="navbar navbar-expand-lg nav-bg py-3 px-5">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold text-white" href="#">My Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0  fw-semibold">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#experience">Experiences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#review">Review</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#about">About Me</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class = "top-banner flexible-part pt-5">
+        <div class="half-width mt-5 ms-5">
             <h1>Welcome To</h1>
-            <h1><span class="name-highlight">Rafi</span> Website</h1>
+            <h1><span class="orange-color">Rafi's </span>Portfolio Website</h1>
             <h3>Proffesional Web Developer</h3>
+            <br>
+            <a class = "link-button" target="_blank" href="https://www.linkedin.com/in/montasir-tasnim-al-rafi-13b334177/">HIRE ME</a>
         </div>
+        <div class="half-width">
+            <img src="images/profile 2.png" alt="Profile">
+        </div>
+    </section>
+    <section id="about" class="dream-big flexible-part">
         <div class="half-width">
             <img src="images/profile.png" alt="Profile">
         </div>
+        <div class="half-width">
+            <h2>Big Dream</h2>
+            <h3>Work in Goggle</h3>
+            <p>
+                I know Html,CSS,Javascript,Java,Python,Flutter. I can built simple website and simple android ios app.
+            </p>
+            <a class="link-button" target="_blank" href="https://github.com/rafi1999">Github Link</a>
+        </div>
+    </section>
+    <section id="experience" class="experience-area container">
+        <h1 class="mb-4">
+            Experiences
+        </h1>
+        <div class="flexible-part">
+            <div id="full-dev" class="experiment-item">
+            <h2 class="orange-color">Full Stack Web Developer</h2>
+            <h3>2022 - Present</h3>
+            <p>I know HTML,CSS,Javascript. I know what is needed to make a website function efficiently.</p>
+            </div>
+            <div id="baby-dev" class="experiment-item">
+                <h2 class="orange-color">Android APP Developer</h2>
+                <h3>2022 - Present</h3>
+                <p>I have experience in developing android apps using flutter. I have made few apps which are available in Github</p>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="container">
+        <h1>My Skills</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+            <div class="col">
+                <div class="card">
+                    <img height="280px"
+                        src="https://play-lh.googleusercontent.com/85WnuKkqDY4gf6tndeL4_Ng5vgRk7PTfmpI4vHMIosyq6XQ7ZGDXNtYG2s0b09kJMw"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title orange-color">HTML</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img height="280px"
+                        src="https://play-lh.googleusercontent.com/RTAZb9E639F4JBcuBRTPEk9_92I-kaKgBMw4LFxTGhdCQeqWukXh74rTngbQpBVGxqo"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title orange-color">CSS</h5>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img height="280px" src="https://www.computerhope.com/jargon/j/javascript.png" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title orange-color">JavaScript</h5>
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img height="280px"
+                        src="https://geekpulp.co.nz/wp-content/uploads/2019/04/E1CF8181-B281-4640-9EF7-959FFFABB156.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title orange-color">mongoDB</h5>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img height="280px"
+                        src="https://spiceworksmyanmar.com/blog/wp-content/uploads/2019/07/cover_flutter.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title orange-color">Flutter</h5>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img height="280px"
+                        src="https://png.pngitem.com/pimgs/s/174-1746632_java-logo-transparent-png-java-programming-language-logo.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title orange-color">Java</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img height="280px"
+                        src="https://www.freeiconspng.com/uploads/c--logo-icon-8.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title orange-color">C++</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img height="280px"
+                        src="https://journeyofthegeekcom.files.wordpress.com/2019/01/python_logo.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title orange-color">Python</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img height="280px"
+                        src="https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title orange-color">MySQL</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="container mt-5">
+        <h1>My Services</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+            <div class="col">
+                <div class="card">
+                    <img height="300px" src="https://www.nicepng.com/png/full/263-2630027_web-design-development-icon-web-development-icons-png.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title orange-color">Web Development</h5>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img height="300px"
+                        src="https://www.pngitem.com/pimgs/m/530-5300676_android-app-development-transparent-hd-png-download.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title orange-color">Android App Development</h5>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img height="300px"
+                        src="https://favtutor.com/resources/images/uploads/Java_Projects_for_Beginners.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title orange-color">Java Swing Project</h5>
+                      
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img height="300px"
+                        src="https://res.cloudinary.com/practicaldev/image/fetch/s--5yuHmkYZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/bqh7szmq6e917xfa1lod.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title orange-color">HTML CSS Landing Page</h5>
+                      
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img height="300px"
+                        src="https://cdn.dribbble.com/users/746931/screenshots/11132148/media/9777b75b94f416aff7f3f7e299adbb52.png?compress=1&resize=400x300"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title orange-color">Portfolio Design</h5>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img height="300px" src="https://miro.medium.com/max/580/1*5AKv5i_omy24uvWcz64NpA.png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title orange-color">Database Adminstrator</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="review" class="container mt-5">
+        <h1>Customer Review</h1>
+        <div id="carouselExampleCaptions" class="carousel slide mt-3" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/pic-1.png" class="review_img" alt="...">
+                    <div class="carousel-caption d-none d-md-block bg-black p-5 bg-opacity-25">
+                        <h5>Yousuf Jamshed</h5>
+                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/pic-2.png" class="review_img" alt="...">
+                    <div class="carousel-caption d-none d-md-block bg-black p-5 bg-opacity-25">
+                        <h5>Mezbah Uddin</h5>
+                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/pic-4.png" class="review_img" alt="...">
+                    <div class="carousel-caption d-none d-md-block bg-black p-5 bg-opacity-25">
+                        <h5>Kuddus Mia</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
 </body>
+<footer class="mt-5">
+    <p style="font-weight: 500;font-size:large color:rgb(0, 0, 0)">©Made by Montasir Tasnim Al Rafi</p>
+</footer>
 </html>
